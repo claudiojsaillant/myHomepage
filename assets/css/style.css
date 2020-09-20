@@ -1,0 +1,68 @@
+body{
+  background-image: url("../imgs/pattern.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+h1, a{
+  text-align: center;
+}
+
+a {
+  color: red;
+  margin: 10px;
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:red; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
+li,p,a {
+  font-size: 20px;
+}
+
+h1 {
+  margin: 25px;
+}
+
+/* Span Exersice */
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+#index {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-bottom: 10px;
+}
